@@ -1,4 +1,4 @@
-# teamproject-crawler
+# youtube-comments-crawler
 The team project from May 19th to May 23rd at YGL 2nd class
 
 ## descriptions
