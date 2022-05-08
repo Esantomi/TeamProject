@@ -54,7 +54,7 @@ class Youtube:
         if len(self.video_list) < ends:
             ends = len(self.video_list)
         for num, video in enumerate(self.video_list[:ends]):
-            api_key = 'AIzaSyDxEjUOUxK9jUqhSbdVjP3QTTxeCWIFOT0'
+            api_key = '자신의_API키_입력'
             video_id = video
             api_obj = build('youtube', 'v3', developerKey=api_key)
             response = api_obj.commentThreads().list(part='snippet,replies', videoId=video_id, maxResults=100).execute()
